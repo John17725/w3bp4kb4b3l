@@ -20,16 +20,6 @@ module.exports = {
       { test: /\.css$/i, use: ['style-loader', 'css-loader'] },
       {
         test: /\.(png|jpg|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              esModule: false,
-              publicPath: 'images'
-            }
-          }
-        ],
         type: 'asset'
       }
     ]
