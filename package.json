@@ -1,0 +1,14 @@
+{
+  "name": "w3bp4ckb4b3l",
+  "version": "1.0.0",
+  "description": "Example using webpack and babel",
+  "main": "index.js",
+  "repository": "https://github.com/John17725/w3bp4kb4b3l.git",
+  "author": "john17725 <barthjoss@hotmail.es>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2"
+  }
+}

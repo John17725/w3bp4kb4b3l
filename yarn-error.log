@@ -1,0 +1,44 @@
+Arguments: 
+  /home/domchuy/.nvm/versions/node/v19.5.0/bin/node /home/domchuy/.nvm/versions/node/v19.5.0/bin/yarn add babel-loader @babel-core -D
+
+PATH: 
+  /home/domchuy/.vscode-server/bin/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884/bin/remote-cli:/home/domchuy/.nvm/versions/node/v19.5.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.1.3.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/sopor/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/sopor/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/sopor/AppData/Local/JetBrains/Toolbox/scripts:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.5.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel-core: Request "https://registry.yarnpkg.com/@babel-core" returned a 405
+      at params.callback [as _callback] (/home/domchuy/.nvm/versions/node/v19.5.0/lib/node_modules/yarn/lib/cli.js:66154:18)
+      at self.callback (/home/domchuy/.nvm/versions/node/v19.5.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:512:28)
+      at Request.<anonymous> (/home/domchuy/.nvm/versions/node/v19.5.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:512:28)
+      at IncomingMessage.<anonymous> (/home/domchuy/.nvm/versions/node/v19.5.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:626:28)
+      at IncomingMessage.emit (node:events:524:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "w3bp4ckb4b3l",
+    "version": "1.0.0",
+    "description": "Example using webpack and babel",
+    "main": "index.js",
+    "repository": "https://github.com/John17725/w3bp4kb4b3l.git",
+    "author": "john17725 <barthjoss@hotmail.es>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
